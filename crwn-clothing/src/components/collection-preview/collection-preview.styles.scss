@@ -1,0 +1,20 @@
+body {
+    font-family: 'Open Sans Condensed';
+    padding: 20px 60px;
+}
+
+.collection-preview {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+  
+    .title {
+      font-size: 28px;
+      margin-bottom: 25px;
+    }
+  
+    .preview {
+      display: flex;
+      justify-content: space-between;
+    }
+  }
